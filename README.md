@@ -1,8 +1,18 @@
 # Comparative-Analysis-of-Different-Classification-Algorithms
-This repository aims at implementing different machine learning classification algorithms on a selected dataset and analyzing the results in terms of comparison among the performance of those algorithms. After selecting a dataset, four classifications algorithm namely Decision Tree Induction, Random Forest Classifier, Naïve Bayes Classifier, and Support Vector Classifier were implemented to predict the class level. After implantation, the report containing accuracy has been generated for all the algorithm. In addition, confusion matrix, and ROC graph has been visualized. All the process has been done using both Weka tool and different Python libraries in Jupyter Notebook.
+This repository aims at implementing different machine learning classification algorithms on a selected dataset and analyzing the results in terms of comparison among the performance of those algorithms. 
 
-The data are MC generated to simulate registration of high energy gamma particles in a ground-based atmospheric Cherenkov gamma telescope using the imaging technique. Cherenkov gamma telescope observes high energy gamma rays, taking advantage of the radiation emitted by charged particles produced inside the electromagnetic showers initiated by the gammas, and developing in the atmosphere. This Cherenkov radiation (of visible to UV wavelengths) leaks through the atmosphere and gets recorded in the detector, allowing reconstruction
-of the shower parameters. The available information consists of pulses left by the incoming Cherenkov photons on the photomultiplier tubes, arranged in a plane, the camera. Depending on the energy of the primary gamma, a total of few hundreds to some 10000 Cherenkov photons get collected, in patterns (called the shower image), allowing to discriminate statistically those caused by primary gammas (signal) from the images of hadronic showers initiated by cosmic rays in the upper atmosphere (background).
+After selecting a dataset, four classifications algorithm namely 
+
+1] Decision Tree Induction
+2] Random Forest Classifier
+3] Naïve Bayes Classifier
+4] Support Vector Classifier 
+
+were implemented to predict the class level. After implantation, the report containing accuracy has been generated for all the algorithm. In addition, confusion matrix, and ROC graph has been visualized. All the process has been done using both Weka tool and different Python libraries in Jupyter Notebook.
+
+The data are MC generated to simulate registration of high energy gamma particles in a ground-based atmospheric Cherenkov gamma telescope using the imaging technique. Cherenkov gamma telescope observes high energy gamma rays, taking advantage of the radiation emitted by charged particles produced inside the electromagnetic showers initiated by the gammas, and developing in the atmosphere. This Cherenkov radiation (of visible to UV wavelengths) leaks through the atmosphere and gets recorded in the detector, allowing reconstruction of the shower parameters. 
+
+The available information consists of pulses left by the incoming Cherenkov photons on the photomultiplier tubes, arranged in a plane, the camera. Depending on the energy of the primary gamma, a total of few hundreds to some 10000 Cherenkov photons get collected, in patterns (called the shower image), allowing to discriminate statistically those caused by primary gammas (signal) from the images of hadronic showers initiated by cosmic rays in the upper atmosphere (background).
 
 Data Set Characteristics: Multivariate
 Number of Instances: 19020
